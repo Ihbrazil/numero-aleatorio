@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import App from "@/App";
-import PaginaInicial from "@/componentes/PaginaInicial";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
       </Head>
       <h1>Olá Mundo</h1>
       <App/>
-      <PaginaInicial/>
     </>
   );
 }
