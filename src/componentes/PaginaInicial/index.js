@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './estilo.css';
 
-export default function PaginaInicial() {
+function PaginaInicial() {
     const [numeroAleatorio, setNumeroAleatorio] = useState(1);
 
     function gerarNumero() {
@@ -25,3 +25,4 @@ export default function PaginaInicial() {
         </div>
     );
 }
+export default PaginaInicial;
