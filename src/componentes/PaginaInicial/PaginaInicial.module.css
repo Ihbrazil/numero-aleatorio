@@ -1,5 +1,5 @@
-.conteudo-centralizado{
-    display: flex;
+.conteudo_centralizado{
+    display: flex; 
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -10,7 +10,7 @@
     box-sizing: border-box;
   }
   
-  .area-botao{
+  .area_botao{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
     text-align: center;
   }
   
-  button {
+  .botao {
     margin-top:20px;
     color: #FFFFFF;
     font-size: 12px;

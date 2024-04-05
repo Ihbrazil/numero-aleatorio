@@ -1,6 +1,6 @@
 import Head from "next/head";
-import styles from "..Home.module.css";
-import PaginaInicial from "../componentes/PaginaInicial";
+import estilos from "../styles/Home.module.css";
+import App from "../componentes/App/App.js"
 
 export default function Home() {
   return (
@@ -11,7 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <paginainicial/> {/* Use o componente PaginaInicial aqui */} 
+      <div className={estilos.App}>
+          <App/>
+      </div> 
     </>
   );
 }
